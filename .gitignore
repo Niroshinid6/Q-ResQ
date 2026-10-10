@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.db
+*.sqlite
+*.sqlite3
+
+# FastAPI / Uvicorn
+*.log
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/build/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets / Credentials
+*.pem
+*.key
+*.crt
+secrets/
+
+# Generated / Artifacts
+q_resq.db
