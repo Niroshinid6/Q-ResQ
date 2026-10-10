@@ -2,7 +2,7 @@ fastapi==0.111.0
 uvicorn[standard]==0.29.0
 pydantic==2.7.1
 sqlalchemy==2.0.30
-ortools==9.10.4067
+ortools==9.15.6755
 networkx==3.3
 pytest==8.2.0
 httpx==0.27.0
